@@ -1,0 +1,51 @@
+Computer vision for environmental understanding
+Real-time monitoring sensors
+Raspberry Pi processing for community engagement
+Hexapod mobility and agility
+Portable agricultural technology
+Indoor and outdoor ecosystem management
+Environmental data to mobile app
+Robot control and monitoring app
+Plant classification and beneficial relationships
+Self-sufficient ecosystem design
+Ecosystem health classification
+Educational information on plants and environments
+Modular plug-and-play design for sensors and tools
+Real-time environment monitoring
+Plant detection
+Plant health classification
+Plant relationship identification in ecosystems
+Beneficial ecosystem modeling
+Ecosystem risk detection
+Accessible for small-scale farmers and consumers
+Scalable farming system through interconnecting robots
+User-friendly setup and control
+Real-time response to environmental changes
+Local plant identification and biodiversity enhancement
+Social features for sharing ecosystem insights
+Resource optimization and waste minimization
+Solar powered
+Remote gardening
+AI-driven gardening recommendations
+Food system input and output tracking
+Portable and user-friendly
+Adaptable to indoor and outdoor environments
+Real-time monitoring and data collection
+Mobile app integration for control and data access
+Educational value
+Versatile for various agricultural needs
+Organic gardening helper
+Bioinspired hexapod design for complex terrain navigation
+Machine learning for decision-making and navigation
+Focus on sustainability and natural growing methods
+End-user engagement and education
+Sustainable food system design
+Affordable for end users
+Scalable through networking robots
+Modular design of robots
+Adaptive algorithms for environmental conditions
+Support for local biodiversity
+Resource-efficient plant growth with minimal external inputs
+Energy-efficient with solar charging for outdoor use
+Remote access and control
+AI-driven recommendations for food system health
