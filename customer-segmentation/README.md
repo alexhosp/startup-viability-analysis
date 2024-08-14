@@ -14,7 +14,11 @@ This customer segmentation analysis investigates the target market for an innova
 
 ## Project Overview
 ### Motivation & Context 
-This project aims to validate the market potential for a proposed portable, AI-driven gardening robot designed to promote sustainable gardening practices through environmental understanding. The primary objective is to identify and understand target customer segments, their needs, and behaviors to determine the viability of this innovative product. If considered viable, these insights will further inform prototype design and marketing strategy. Conducting a customer segmentation analysis aims to mitigate the risk of developing a product that lacks a significant audience. The insights gained will guide the creation of a user-centric prototype that effectively addresses current customer needs.
+This project aims to validate the market potential for a proposed portable, AI-driven gardening robot designed to promote sustainable gardening practices through environmental understanding.
+
+The primary objective is to identify and understand target customer segments, their needs, and behaviors to determine the viability of this innovative product. If considered viable, these insights will further inform prototype design and marketing strategy. 
+
+Conducting a customer segmentation analysis aims to mitigate the risk of developing a product that lacks a significant audience. The insights gained will guide the creation of a user-centric prototype that effectively addresses current customer needs.
 ### Project Steps
 
 ## Data
