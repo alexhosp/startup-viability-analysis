@@ -27,7 +27,7 @@ Conducting a customer segmentation analysis aims to mitigate the risk of develop
 
 3. **Feature Extraction & Feature Engineering** 
 * Feature extraction techniques will be applied to analyze the context of keyword mentions within the collected semi-structured data. This analysis aims to reveal audience characteristics, motivations, and preferences. 
-* The insights gained will then be used for feature engineering, creating a structured table that defines distinct audience groups and their key characteristics. This will facilitate effective customer segmentation.
+* The insights gained will then be used for feature engineering, creating a structured table that defines distinct hypothesized audience groups and their key characteristics. This will facilitate effective customer segmentation.
 
 4. **Clustering-Based Customer Segmentation Analysis**
 * A clustering algorithm will be utilized to segment the audience into distinct groups based on shared attributes and preferences. These customer segments will then serve as the foundation for a succeeding market opportunity analysis (TAM estimation).
