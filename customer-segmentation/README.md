@@ -153,4 +153,9 @@ The analysis successfully identified relevant keywords across the features and n
 - This project is open-source and licensed under the MIT License - see the [LICENSE](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/LICENSE) file for details. In simple terms, you are free to use, modify, and distribute this code for personal and commercial purposes.
 
 ## Contact
+- **Name:** Alex Hosp
+- **Email:** alexhosp.dev@gmail.com
+- **GitHub Profile:** https://github.com/alexhosp
+- **LinkedIn:** http://www.linkedin.com/in/alexandra-hosp
+- **Portfolio:** https://alexhosp.dev/
 
