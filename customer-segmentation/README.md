@@ -55,6 +55,17 @@ Conducting a customer segmentation analysis aims to mitigate the risk of develop
     - If the API method issue gets resolved, I will update the analysis with the current data.
 
 ## Notebooks
+## Project Status
+This project is currently **in progress**. This section will outline the existing notebooks and provide an overview of the notebooks that are planned for future development.
+
+## Current Notebooks
+
+- **`01_google_trends_collection_cleaning__eda.ipynb`:** This notebook focuses on collecting Google Trends data, cleaning it, and conducting exploratory data analysis (EDA) to gain initial insights.
+    - Collects, cleans, and transforms Google Trends data (Pandas DataFrames) for predefined keywords, ensuring data quality and readiness for analysis.
+    - Conducts in-depth EDA, including visualizations and trend exploration, before storing the processed DataFrames in GCS for further use.
+- **`02_google_trends_analysis.ipynb`:** This notebook focuses on the in-depth analysis of Google Trends data to identify keywords with significant audience interest.
+    - Analyzes and visualizes interest trends, explores search context of the most relevant keywords, and evaluates keyword significance for further analysis, market understanding, and prototype development.
+    - Recommends keywords to prioritize in further data collection and outlines intermediary analysis steps for keywords with insufficient or uncertain relevance to inform their inclusion in subsequent data collection.
 
 ## Dependencies
 
