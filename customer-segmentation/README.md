@@ -33,6 +33,26 @@ Conducting a customer segmentation analysis aims to mitigate the risk of develop
 * A clustering algorithm will be utilized to segment the audience into distinct groups based on shared attributes and preferences. These customer segments will then serve as the foundation for a succeeding market opportunity analysis (TAM estimation).
 
 ## Data
+## Data Sources
+
+1. **Three initial keyword lists**
+    - Proposed features.
+    - Proposed problems to solve.
+    - The proposed needs to address.
+2. **Google Trends Data** 
+    - Interest over the last three years for all initial keywords.
+    - Search suggestions for highly relevant keywords.
+    - Nested dictionary of Google Search categories.
+3. **Social Media API Data** 
+    - Semi-structured JSON data (metadata, textual content).
+4. **Google Custom Search API Data**
+    - Semi-structured JSON data (metadata, HTML content).
+## Data Collection Challenges
+
+1. **Pytrends API** 
+    - As Google is the most used search engine, Google Search trends most accurately mirror what the world finds relevant at any given time. People turn to Google first when they're curious about something; their curiosity is derived from a perception of relevance. Thus, Google Trends data most accurately reflects worldwide interest over time. There is no official API to retrieve Google Trends data, so the unofficial Pytrends library was used for data retrieval.
+    - The `interest_over_time` method currently faces issues due to changes on the Google Trends side. Although more recent data would be ideal, the available data (June 2020 - June 2024) is likely still representative of current trends.
+    - If the API method issue gets resolved, I will update the analysis with the current data.
 
 ## Notebooks
 
