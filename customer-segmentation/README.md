@@ -6,7 +6,7 @@ This customer segmentation analysis investigates the target market for an innova
 2. [Data](#data)
 3. [Notebooks](#notebooks)
 4. [Dependencies](#dependencies)
-5. [How to Run](#how-to-run)
+5. [How to Run](#how-to-run-notebooks)
 6. [Results & Insights](#results--insights)
 7. [Future Work](#future-work)
 8. [Contributing & License](#contributing--license)
@@ -91,7 +91,13 @@ This project is currently **in progress**. This section will outline the existin
     - `numpy==1.26.4`
     - `holoviews==1.18.3`
 
-## How to Run
+## How to Run Notebooks
+1. Make sure you're logged into your Google account.
+2. Click on the provided *Open in Colab* links to open the notebooks in Google Colab.
+3. If prompted, install the Colab extension.
+4. Allow a few seconds for the notebook to connect to a runtime environment.
+5. If prompted to restart the runtime to install the necessary libraries, please do so. After restarting, you'll need to re-run all the cells in the notebook from the beginning. You can do this quickly by clicking the first cell and pressing **`Ctrl-F10`**.
+6. Execute the cells in each notebook sequentially from top to bottom using the "Run" button or the keyboard shortcut (**`Shift+Enter`**).
 
 ## Results & Insights
 
