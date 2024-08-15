@@ -91,7 +91,7 @@ This project is currently **in progress**. This section will outline the existin
     - `numpy==1.26.4`
     - `holoviews==1.18.3`
 
-## How to Run Notebooks
+## How to Run Colab Notebooks
 1. Make sure you're logged into your Google account.
 2. Click on the provided *Open in Colab* links to open the notebooks in Google Colab.
 3. If prompted, install the Colab extension.
