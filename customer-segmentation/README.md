@@ -36,7 +36,7 @@ Conducting a customer segmentation analysis aims to mitigate the risk of develop
 ### Data Sources
 
 1. **Three initial keyword lists**
-    - Proposed features.
+    - Proposed prototype features.
     - Proposed problems to solve.
     - The proposed needs to address.
 2. **Google Trends Data** 
