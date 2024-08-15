@@ -6,7 +6,7 @@ This customer segmentation analysis investigates the target market for an innova
 2. [Data](#data)
 3. [Notebooks](#notebooks)
 4. [Dependencies](#dependencies)
-5. [How to Run](#how-to-run-notebooks)
+5. [How to Run](#how-to-run-colab-notebooks)
 6. [Results & Insights](#results--insights)
 7. [Future Work](#future-work)
 8. [Contributing & License](#contributing--license)
@@ -56,10 +56,10 @@ Conducting a customer segmentation analysis aims to mitigate the risk of develop
     - If the API functionality stabilizes, the analysis will be updated with the most current data.
 
 ## Notebooks
-## Project Status
+### Project Status
 This project is currently **in progress**. This section will outline the existing notebooks and provide an overview of the notebooks that are planned for future development.
 
-## Current Notebooks
+### Current Notebooks
 
 - [**`01_google_trends_collection_cleaning__eda.ipynb`:**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/notebooks/01_google_trends_collection_cleaning__eda.ipynb) This notebook focuses on collecting Google Trends data, cleaning it, and conducting exploratory data analysis (EDA) to gain initial insights.
     - Collects, cleans, and transforms Google Trends data (Pandas DataFrames) for predefined keywords, ensuring data quality and readiness for analysis.
@@ -67,7 +67,7 @@ This project is currently **in progress**. This section will outline the existin
 - [**`02_google_trends_analysis.ipynb`:**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/notebooks/02_google_trends_analysis.ipynb)This notebook focuses on the in-depth analysis of Google Trends data to identify keywords with significant audience interest.
     - Analyzes and visualizes interest trends, explores search context of the most relevant keywords, and evaluates keyword significance for further analysis, market understanding, and prototype development.
     - Recommends keywords to prioritize in further data collection and outlines intermediary analysis steps for keywords with insufficient or uncertain relevance to inform their inclusion in subsequent data collection.
-## Future Notebooks
+### Future Notebooks
 
 - **Data Collection from Online Sources:** Multiple notebooks will be dedicated to collecting, cleaning, exploring, and transforming data using various APIs (social media and search results) using refined keywords. Each online source will have a dedicated notebook, and the final processed data will be stored in GCS for future analysis.
 - **Feature Extraction & Engineering:** This notebook will focus on extracting relevant features from the textual data and metadata collected from various online sources (social media and search results). It will also involve engineering new features and creating a structured table to represent hypothesized distinct audience groups and their characteristics. This structured table will be stored in Google Cloud Storage (GCS) for subsequent analysis.
@@ -100,6 +100,31 @@ This project is currently **in progress**. This section will outline the existin
 6. Execute the cells in each notebook sequentially from top to bottom using the "Run" button or the keyboard shortcut (**`Shift+Enter`**).
 
 ## Results & Insights
+### Project Status
+
+This section presents the findings and insights gathered so far in the analysis. **As the project evolves, this section will be updated** to reflect further developments and a more comprehensive understanding of the target audience and market opportunity.
+### Google Trends Analysis
+
+#### Key  Results
+
+- The analysis identified several **promising keywords** with high interest or significant growth potential, including **features** like **solar-powered, plant detection, remote access and control,** and **needs** like **educational AI, climate resilience, and sustainable food production**. These keywords have a significant audience and can be used for data collection in the next analysis step.
+- Some keywords require further evaluation before determining their suitability for inclusion in subsequent analysis stages. These include the **features** **food system health** and **plant identification** and the **entire problems keyword list**, which needs refinement. In the problem, the only keyword that showed some potential was **monoculture in agriculture**.
+- **Potential audience segments** were identified: **solar consumers, academic innovators, climate activists, health-conscious consumers, and forward-thinking farmers**. These segments provide an **initial understanding** of the diverse groups that might be interested in the gardening robot prototype.
+- The **broader interest categories** associated with these audiences include **science and technology, food and agriculture, and energy and environment**. These categories offer potential areas for further exploration and targeting and can be used in conjunction with keywords for data collection.
+
+#### Interpretation of Results & Insights
+
+The analysis successfully identified relevant keywords across the features and needs domains that demonstrate significant global audience interest. Exploratory identification of potential audience segments and their broader interests provides additional insight to support effective customer segmentation. While some keywords (especially in the problem domain) require further evaluation, the initial analysis has successfully narrowed the focus, allowing for a more targeted and insightful subsequent analysis process.
+#### Visualizations
+
+- [**Weekly Average Interest for Most Relevant Keywords**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/visualizations/weekly_average_interest_all_groups.png) - This bar chart shows the weekly average interest for the most relevant keywords identified in the Google Trends analysis, categorized by their type (need, feature, or problem) and interest level (moderate, high, or critical). It shows absolute interest in keywords in all three groups.
+- [**Interest Over Time for Key Features**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/visualizations/key_features_interest_over_time.png) - This heatmap displays the Google Trends interest over time for the most relevant features, categorized by interest level (moderate, high, critical). It shows growth patterns and magnitude of interest over time.
+- [**Interest Over Time for Key Needs**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/visualizations/key_needs_interest_over_time.png) - This heatmap displays the Google Trends interest over time for the most relevant needs, categorized by interest level (moderate, high, critical). It shows growth patterns and magnitude of interest over time.
+- [**Interest Over Time for Problem with Highest Relevance**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/visualizations/key_problems_interest_over_time.png) - This heatmap visualizes the Google Trends interest for the keyword ‘Monoculture in agriculture’ over the past three years. It highlights the low overall interest with occasional spikes in this most relevant keyword in the problems group, further emphasizing the need to refine the initial keyword list.
+- [**Interest in All Proposed Problems**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/visualizations/interest_in_all_problem_keywords.png) - This heatmap visualizes Google Trends interest over time for the proposed problems, emphasizing the extremely low interest in all proposed problems on the initial keyword list.
+- [**Keyword and Category Relationships**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/visualizations/categories_keywords_relationships.png)
+ - This chord diagram illustrates the connections between the identified keywords and their associated Google Search categories, showcasing the interconnectedness of the topics relevant to the target audience.
+
 
 ## Future Work
 
