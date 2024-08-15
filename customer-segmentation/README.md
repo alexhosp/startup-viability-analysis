@@ -52,7 +52,8 @@ Conducting a customer segmentation analysis aims to mitigate the risk of develop
 1. **Pytrends API** 
     - As Google is the most used search engine, Google Search trends most accurately mirror what the world finds relevant at any given time. People turn to Google first when they're curious about something; their curiosity is derived from a perception of relevance. Thus, Google Trends data most accurately reflects worldwide interest over time. There is no official API to retrieve Google Trends data, so the unofficial Pytrends library was used for data retrieval.
     - The `interest_over_time` method currently faces issues due to changes on the Google Trends side. Although more recent data would be ideal, the available data (June 2020 - June 2024) is likely still representative of current trends.
-    - If the API method issue gets resolved, I will update the analysis with the current data.
+    - Currently, running the notebooks using this API may result in intermittent 429 errors due to ongoing issues on the Google Trends side. For more details, please refer to  [Pytrends Issue #625](https://github.com/GeneralMills/pytrends/issues/625).
+    - If the API functionality stabilizes, the analysis will be updated with the most current data.
 
 ## Notebooks
 ## Project Status
@@ -60,10 +61,10 @@ This project is currently **in progress**. This section will outline the existin
 
 ## Current Notebooks
 
-- **`01_google_trends_collection_cleaning__eda.ipynb`:** This notebook focuses on collecting Google Trends data, cleaning it, and conducting exploratory data analysis (EDA) to gain initial insights.
+- [**`01_google_trends_collection_cleaning__eda.ipynb`:**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/notebooks/01_google_trends_collection_cleaning__eda.ipynb) This notebook focuses on collecting Google Trends data, cleaning it, and conducting exploratory data analysis (EDA) to gain initial insights.
     - Collects, cleans, and transforms Google Trends data (Pandas DataFrames) for predefined keywords, ensuring data quality and readiness for analysis.
     - Conducts in-depth EDA, including visualizations and trend exploration, before storing the processed DataFrames in GCS for further use.
-- **`02_google_trends_analysis.ipynb`:** This notebook focuses on the in-depth analysis of Google Trends data to identify keywords with significant audience interest.
+- [**`02_google_trends_analysis.ipynb`:**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/notebooks/02_google_trends_analysis.ipynb)This notebook focuses on the in-depth analysis of Google Trends data to identify keywords with significant audience interest.
     - Analyzes and visualizes interest trends, explores search context of the most relevant keywords, and evaluates keyword significance for further analysis, market understanding, and prototype development.
     - Recommends keywords to prioritize in further data collection and outlines intermediary analysis steps for keywords with insufficient or uncertain relevance to inform their inclusion in subsequent data collection.
 ## Future Notebooks
@@ -73,6 +74,22 @@ This project is currently **in progress**. This section will outline the existin
 - **Clustering-Based Customer Segmentation:** his notebook will employ a clustering algorithm on the structured table from the previous step. The aim is to validate the hypothesized audience groups and refine them into distinct customer segments based on shared attributes and preferences as identified by the clustering algorithm. The output of this process will be well-defined customer segments, each with its own unique characteristics.
 
 ## Dependencies
+- [**`01_google_trends_collection_cleaning__eda.ipynb`**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/notebooks/01_google_trends_collection_cleaning__eda.ipynb)
+    - `pandas==2.1.4`
+    - `requests==2.32.3`
+    - `pytrends==4.9.2`
+    - `urllib3==1.25.11`
+    - `seaborn==0.13.1`
+    - `matplotlib==3.7.1`
+- [**`02_google_trends_analysis.ipynb`**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/notebooks/02_google_trends_analysis.ipynb)
+    - `pandas==2.1.4`
+    - `pytrends==4.9.2`
+    - `urllib3==1.25.11`
+    - `scipy==1.13.1`
+    - `seaborn==0.13.1`
+    - `matplotlib==3.7.1`
+    - `numpy==1.26.4`
+    - `holoviews==1.18.3`
 
 ## How to Run
 
