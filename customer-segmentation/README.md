@@ -127,6 +127,26 @@ The analysis successfully identified relevant keywords across the features and n
 
 
 ## Future Work
+### Immediate Next Steps
+
+1. The *problems* keyword list will be revised using simpler terms and re-analyzed to identify areas of stronger interest. This process will iterate until at least one problem keyword with significant audience interest is found.
+2. Time-series forecasting will be used to evaluate the potential for future interest in 'Food system health' and 'Plant identification.' If the forecast indicates a significant increase in interest, these keywords will be included in subsequent data collection. Otherwise, they will be excluded from further analysis.
+3. All relevant keywords, categorized into features, problems, and needs, will be formatted as Python lists for use in the succeeding data collection phase.
+
+### Next Project Phases
+
+1. **Data Collection from Online Sources**:
+    - Multiple notebooks will collect, clean, explore, and transform data from social media and search results using refined keywords.
+    - Each data source will have its own notebook.
+    - Processed data will be stored in GCS.
+2. **Feature Extraction & Engineering**:
+    - A notebook will extract relevant features from the collected textual data and metadata.
+    - New features will be engineered, and a structured table will be created to represent hypothesized audience groups and their characteristics.
+    - This table will be stored in GCS.
+3. **Clustering-Based Customer Segmentation**:
+    - A clustering algorithm will analyze the structured table to validate the hypothesized audience groups and discover distinct customer segments based on patterns and similarities in the data.
+    - The output of this process will be well-defined customer segments, each with its own unique characteristics.
+
 
 ## Contributing & License
 
