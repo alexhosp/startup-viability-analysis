@@ -1,5 +1,7 @@
 # Startup Viability Analysis
-
+## **Project Status**
+This project is currently **in progress**, focusing on the customer segmentation part.
+## Brief Description
 This project aims to assess the viability of a proposed AI-driven gardening robot startup by conducting comprehensive customer segmentation and market opportunity analysis.
 
 ## **Project Structure**
