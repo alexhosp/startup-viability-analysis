@@ -17,7 +17,7 @@ This customer segmentation analysis investigates the target market for an innova
 This project aims to validate the market potential for a proposed portable, AI-driven gardening robot designed to promote sustainable gardening practices through environmental understanding. The primary objective is to identify and understand target customer segments, their needs, and behaviors to determine the viability of this innovative product. If considered viable, these insights will further inform prototype design and marketing strategy. 
 
 Conducting a customer segmentation analysis aims to mitigate the risk of developing a product that lacks a significant audience. The insights gained will guide the creation of a user-centric prototype that effectively addresses current customer needs.
-### Project Steps
+### Project Stages
 1. **Initial Keyword Research & Refinement**
 * Three keyword lists will serve as the starting point for the first analysis step, one encompassing potential features of the prototype, another focusing on   the problems it could solve, and the third highlighting the needs it could address. 
 * Google Trends data will be utilized to analyze search interest trends for all initial keyword ideas, identifying those with significant audience interest.    This ensures a user-centric design process, resulting in a refined set of the most relevant keywords across the features, problems, and needs groups.
