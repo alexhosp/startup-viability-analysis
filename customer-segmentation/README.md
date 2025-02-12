@@ -61,7 +61,7 @@ This project is currently **in progress**. This section will outline the existin
 
 ### Current Notebooks
 
-- [**`01_google_trends_collection_cleaning__eda.ipynb`:**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/notebooks/01_google_trends_collection_cleaning__eda.ipynb) This notebook focuses on collecting Google Trends data, cleaning it, and conducting exploratory data analysis (EDA) to gain initial insights.
+- [**`01_google_trends_collection_cleaning__eda.ipynb`:**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/notebooks/01_google_trends_collection_cleaning_eda.ipynb) This notebook focuses on collecting Google Trends data, cleaning it, and conducting exploratory data analysis (EDA) to gain initial insights.
     - Collects, cleans, and transforms Google Trends data (Pandas DataFrames) for predefined keywords, ensuring data quality and readiness for analysis.
     - Conducts in-depth EDA, including visualizations and trend exploration, before storing the processed DataFrames in GCS for further use.
 - [**`02_google_trends_analysis.ipynb`:**](https://github.com/alexhosp/startup-viability-analysis/blob/main/customer-segmentation/notebooks/02_google_trends_analysis.ipynb)This notebook focuses on the in-depth analysis of Google Trends data to identify keywords with significant audience interest.
